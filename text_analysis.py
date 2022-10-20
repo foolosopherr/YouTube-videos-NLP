@@ -13,6 +13,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.util import ngrams
 from wordcloud import WordCloud
 import streamlit as st
+# from nltk.corpus import stopwords
 import warnings
 warnings.filterwarnings(action='ignore')
 
@@ -24,7 +25,6 @@ import plotly.express as px
 
 # Constants 
 # STOPWORDS = stopwords.words('english')
-# STOPWORDS += ['said']
 
 
 # Text cleaning function 
