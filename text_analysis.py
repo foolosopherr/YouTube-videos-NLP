@@ -8,7 +8,7 @@ from collections import Counter
 
 # Text Processing Library 
 import nltk 
-from nltk.corpus import stopwords
+# from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.util import ngrams
 from wordcloud import WordCloud
@@ -23,8 +23,8 @@ import plotly.express as px
 
 
 # Constants 
-STOPWORDS = stopwords.words('english')
-STOPWORDS += ['said']
+# STOPWORDS = stopwords.words('english')
+# STOPWORDS += ['said']
 
 
 # Text cleaning function 

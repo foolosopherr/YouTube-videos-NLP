@@ -3,10 +3,13 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 import pandas as pd
+# import nltk
+# nltk.download('stopwords')
 from nltk.corpus import stopwords
 import text_analysis as ta
 import en_core_web_sm
 import spacy_streamlit
+
 
 
 
